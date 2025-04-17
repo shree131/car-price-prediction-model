@@ -3,7 +3,7 @@ This project applies Linear Regression to predict car prices based on various fe
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```plaintext
 car-price-prediction/
@@ -18,7 +18,7 @@ car-price-prediction/
 
 ---
 
-# 📊 Dataset
+## 📊 Dataset
 - Source: Uploaded manually by the user (assumed to be a cleaned dataset).
 - Filename: second_hand_car_data.csv
 - Features include:
