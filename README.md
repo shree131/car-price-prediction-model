@@ -53,7 +53,7 @@ car-price-prediction/
    - Calculated the weights and bias.
 
 6. **Evaluation**:
-   - Performance measured by examining R² and residual.
+   - Performance measured by examining R² and the residual.
    - Plotted actual vs. predicted prices for the testing set.
 
 ---
