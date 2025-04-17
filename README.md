@@ -92,15 +92,19 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/shree131/car-price-prediction.git
+   git clone https://github.com/shree131/Car-Price-Prediction-Model.git
    cd car-price-prediction
    ```
 
 2. **Install the required packages**:
-   `pip install -r requirements.txt`
+   ```
+   pip install -r requirements.txt
+   ```
   
 4. **Launch Jupyter Notebook:**
-  `jupyter notebook notebooks/car_price_prediction.ipynb`
+   ```
+   jupyter notebook notebooks/car_price_prediction.ipynb
+   ```
 
-5. **Explore the notebook**:
+6. **Explore the notebook**:
    The notebook walks through data loading, preprocessing, exploratory analysis, model building, evaluation, and insights.
