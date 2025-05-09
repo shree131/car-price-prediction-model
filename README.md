@@ -1,7 +1,7 @@
 # Car Price Prediction Using Linear Regression
 This project applies Linear Regression to predict car prices based on various features such as mileage, engine size, and year of manufacture. The goal is to build a simple yet interpretable model that gives insight into how different car attributes influence the price.
 
----
+
 
 ## 📁 Project Structure
 
@@ -16,9 +16,7 @@ car-price-prediction/
 ```
 
 
----
-
-## 📊 Dataset
+## Dataset
 - Source: Uploaded manually by the user (assumed to be a cleaned dataset).
 - Filename: second_hand_car_data.csv
 - Features include:
@@ -29,9 +27,8 @@ car-price-prediction/
   - `Engine Type`
   - `Price` (target variable)
 
----
 
-## 📈 Methodology
+## Methodology
 
 1. **Exploratory Data Analysis (EDA)**:
    - Examined the relationship between features and price using scatterplots and correlations.
@@ -56,9 +53,8 @@ car-price-prediction/
    - Performance measured by examining R² and the residual.
    - Plotted actual vs. predicted prices for the testing set.
 
----
 
-## 📌 Model Performance Results
+## Model Performance Results
 
 - The model performed well with an R² score of approximately **0.67** on the test set, explaining 67% of the variability in car prices.
 - **Reliable across most price ranges**: The model performs consistently well for the majority of vehicles, particularly those in the low to mid-price range, producing accurate and stable predictions.
@@ -67,9 +63,7 @@ car-price-prediction/
 - **Underestimation of luxury vehicles**: The model tends to **underestimate** the prices of high-end cars (above \$60,000), likely due to their limited representation in the dataset. As a result, the model struggles to fully capture the pricing dynamics of the luxury segment.
 
 
----
-
-## 💡 Insights
+## Insights
 
 The Linear Regression model not only provides reasonably accurate price predictions but also offers interpretable insights into how different factors influence car value.
 
@@ -84,9 +78,8 @@ Key takeaways include:
 These insights reflect real-world market trends and validate the model's utility as an exploratory tool for car pricing analysis.
 
 
----
 
-## 🚀 How to Run
+## How to Run
 
 Follow these steps to set up and run the project locally:
 
@@ -108,3 +101,5 @@ Follow these steps to set up and run the project locally:
 
 6. **Explore the notebook**:
    The notebook walks through data loading, preprocessing, exploratory analysis, model building, evaluation, and insights.
+
+   ---
