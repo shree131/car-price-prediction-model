@@ -90,8 +90,8 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/shree131/Car-Price-Prediction-Model.git
-   cd car-price-prediction
+   git clone https://github.com/shree131/car-price-prediction-model.git
+   cd car-price-prediction-model
    ```
 
 2. **Install the required packages**:
@@ -107,4 +107,6 @@ Follow these steps to set up and run the project locally:
 6. **Explore the notebook**:
    The notebook walks through data loading, preprocessing, exploratory analysis, model building, evaluation, and insights.
 
-   ---
+
+---
+*© 2025 All rights are reserved.*
