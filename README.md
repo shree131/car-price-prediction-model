@@ -11,6 +11,7 @@ car-price-prediction/
 │   └── car_data.csv
 ├── notebooks/
 │   └── car_price_prediction.ipynb
+├── visuals/
 ├── README.md
 └── requirements.txt
 ```
@@ -41,6 +42,8 @@ car-price-prediction/
    - Addressed multi-colinearity.
    - Created dummies for catrgorical features.
    - Selected `year`, `engineSize`, and `log(mileage)` as predictors.
+  
+     <img src="visuals/preprocessing.png" alt="Preprocessing: Before and After" width="100%"/>
 
 4. **Modeling**:
    - Selected `Log(Price)` as the target and `Brand`, `Body`, `Mileage`, `EngineV`, `EngineType` s predictors.
@@ -48,6 +51,8 @@ car-price-prediction/
    - Applied **Linear Regression** using scikit-learn.
    - Trained the model on 80% of the data and tested on the remaining 20%.
    - Calculated the weights and bias.
+
+     <img src="visuals/linear_regression.png" alt="Linear Regression Results: Predicted vs Actual" width="100%"/>
 
 6. **Evaluation**:
    - Performance measured by examining R² and the residual.
