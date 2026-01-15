@@ -3,7 +3,7 @@ This project applies Linear Regression to predict car prices based on various fe
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 car-price-prediction/
